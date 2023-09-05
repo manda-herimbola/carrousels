@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+section ul{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+
+    list-style: none;
+}
+
+section ul img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    opacity: 1;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition-duration: 2000ms;
+}
+
+.imageSlide2{position: relative;}
+
+h1{
+    position: fixed;
+    top: 40%;
+    left: 10%;
+    color: white;
+    font-size: 100px;
+    font-family: sans-serif;
+}
+
+h1 .red{color: #ff9100}
+h1 .mini{
+    font-size: 30px;
+    font-style: initial;
+}
